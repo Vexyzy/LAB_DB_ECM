@@ -1,0 +1,10 @@
+# Ignore all hide files excluding .gitignore
+*.
+*./
+!.gitignore
+
+# Ignore all config
+/etc
+
+# Ignore virtual enviroment
+/env
