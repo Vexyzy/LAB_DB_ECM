@@ -8,3 +8,6 @@
 
 # Ignore virtual enviroment
 /env
+
+# Ignore pycache files
+/app/__pycache__
