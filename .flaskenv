@@ -1,5 +1,5 @@
 FLASK_APP=app
-FLASK_ENV=developmnet
+FLASK_ENV=development
 FLASK_DEBUG=True
 
 
