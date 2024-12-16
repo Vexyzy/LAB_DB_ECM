@@ -57,37 +57,16 @@ def create_report():
             continue
 
         # Написать именования колонок
-        worksheet.write(row_id,
-                        0,
-                        'Наименование товара',
-                        cell_format_bolt
+        worksheet.write(row_id, 0, 'Наименование товара', cell_format_bolt)
+        worksheet.write(row_id, 1, 'Наименование бренда', cell_format_bolt
         )
-        worksheet.write(row_id,
-                        1,
-                        'Наименование бренда',
-                        cell_format_bolt
+        worksheet.write(row_id, 2, 'Дата исполенения заказа', cell_format_bolt
         )
-        worksheet.write(row_id,
-                        2,
-                        'Дата исполенения заказа',
-                        cell_format_bolt
+        worksheet.write(row_id, 3,
+                        'Количество товара в доставке', cell_format_bolt
         )
-        worksheet.write(
-            row_id,
-            3,
-            'Количество товара в доставке',
-            cell_format_bolt,
-        )
-        worksheet.write(row_id,
-                        4,
-                        'Цена, руб.',
-                        cell_format_bolt,
-        )
-        worksheet.write(row_id,
-                        5,
-                        'Стоимость, руб.',
-                        cell_format_bolt
-        )
+        worksheet.write(row_id, 4, 'Цена, руб.', cell_format_bolt)
+        worksheet.write(row_id, 5, 'Стоимость, руб.', cell_format_bolt)
         row_id += 1
 
         # Пройтись по всем данным
